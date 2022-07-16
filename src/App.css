@@ -64,6 +64,10 @@
   padding: 50px !important;
 }
 
+.left_35 {
+  margin-left: 35px !important;
+}
+
 @media (max-width: 991px) {
   .top_60 {
     margin-top: 30px !important;

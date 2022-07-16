@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid, Typography } from "@material-ui/core";
+import { Typography } from "@material-ui/core";
 import "./Profile.css";
 import GetAppIcon from "@material-ui/icons/GetApp";
 import ProfileData from 'util/ProfileData';
