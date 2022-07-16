@@ -10,9 +10,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <Container>
-      <Grid container>
-        <Grid item xs={12} sm={12} md={4} lg={3} style={{backgroundColor : 'green'}}>
+    <Container className={"top_30"}>
+      <Grid container spacing={7}>
+        <Grid item xs={12} sm={12} md={4} lg={3}>
           <Profile/>
         </Grid>
         <Grid item xs={8} style={{backgroundColor : 'red'}}>
