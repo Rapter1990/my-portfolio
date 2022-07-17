@@ -1,9 +1,10 @@
 .header {
-    margin-bottom: 30px !important;
+    margin-bottom: 15px !important;
     background-color: white !important;
     padding: 0 22px 0 0 !important;
     border-radius: 6px !important;
     box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.07) !important;
+    height: 45px;
 }
 
 .header .header_link {
@@ -22,7 +23,7 @@
 
 .header .header_home {
     background-color: var(--main-color);
-    padding: 22px;
+    padding: 11px;
     display: flex;
     justify-content: center;
     align-items: center;
