@@ -7,9 +7,9 @@ const Service = () => {
   return (
     <div className="main_content">
      <Grid container className="section p_55_30 position-center">
-         <Grid item className="section_title">
+         <Grid item className="section_title service_title_span">
             <span></span>
-            <h2>My Services</h2>
+            <h2>Services</h2>
           </Grid>
           <Grid container item xs={12} spacing={6} justifyContent="space-around">
             {ServiceData.services.map((service) => (

@@ -31,6 +31,16 @@
     justify-content: center;
 }
 
-/*.section_title {
-    margin-top: -35px !important;
-}*/
+.service_title_span {
+    margin-top: -45px !important;
+}
+
+.service_title_span span {
+  position: absolute;
+  height: 7px;
+  width: 100%;
+  bottom: 21px;
+  opacity: 0.4;
+  left: 0;
+  background-color: var(--main-color) !important;
+}
