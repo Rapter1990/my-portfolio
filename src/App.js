@@ -9,6 +9,8 @@ import Resume from 'pages/Resume/Resume';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from 'pages/Home/Home';
+import Contact from 'pages/Contact/Contact';
+import Service from 'pages/Service/Service';
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
                 <Route path="/" element={<Home />}/>
                 <Route path="/portfolio" element={<Portfolio />} />
                 <Route path="/resume" element={<Resume />} />
+                <Route path="/contact" element={<Contact />} />
+                <Route path="/service" element={<Service />} />
               </Routes>
             </Router>
           <Footer/>

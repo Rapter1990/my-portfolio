@@ -1,11 +1,12 @@
 import React from 'react'
+import "./Contact.css";
 
-const Portfolio = () => {
+const Contact = () => {
   return (
     <div className='main_content'>
-      Portfolio
+       Contact
     </div>
   )
 }
 
-export default Portfolio;
+export default Contact;

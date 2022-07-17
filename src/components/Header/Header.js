@@ -35,8 +35,14 @@ const Header = () => {
           <Nav.Link as={NavLink} to="/resume" className={pathname === "/resume" ? "header_link_active" : "header_link" }>
             Resume
           </Nav.Link>
+          <Nav.Link as={NavLink} to="/service" className={pathname === "/service" ? "header_link_active" : "header_link" }>
+            Service
+          </Nav.Link>
           <Nav.Link as={NavLink} to="/portfolio" className={pathname === "/portfolio" ? "header_link_active" : "header_link" }>
             Portfolio
+          </Nav.Link>
+          <Nav.Link as={NavLink} to="/contact" className={pathname === "/contact" ? "header_link_active" : "header_link" }>
+            Contact
           </Nav.Link>
         </Nav>
 
