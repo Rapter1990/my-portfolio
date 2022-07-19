@@ -35,6 +35,7 @@ const Portfolio = () => {
               {[...new Set(PortfolioData.portfolio.map(item => item.tag))].map(tag => (
                 <Tab label={tag} 
                     value={tag}
+                    key={"tab#"+tag}
                     className={tabValue === tag ? "customTabs_item active" : "customTabs_item" } />
               ))}
 
@@ -43,7 +44,7 @@ const Portfolio = () => {
         
         {/** Projects */}
         <Grid item xs={12}>
-          <Grid item container spacing={4}>
+          <Grid item container spacing={4} xs={12} className="layout_portfolio">
           {
             PortfolioData.portfolio.map((project) => (
               <>

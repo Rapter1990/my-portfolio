@@ -2,10 +2,12 @@ import React from 'react'
 import "./CustomButton.css";
 import { Button } from "@material-ui/core";
 
-const CustomButton = ({ text, icon }) => {
+const CustomButton = ({ text, icon, submitfunction }) => {
+
   return (
     <Button
       className="site_btn"
+      onClick={submitfunction}
       endIcon={
         icon ? (
           <div className="icon_container">

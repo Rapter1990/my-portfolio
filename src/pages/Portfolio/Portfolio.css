@@ -48,7 +48,10 @@
 
 .MuiCardContent-root {
     padding: 5px !important;
-    
+}
+
+.layout_portfolio {
+    margin-left: 0px !important;
 }
 
 /* Dialog*/
