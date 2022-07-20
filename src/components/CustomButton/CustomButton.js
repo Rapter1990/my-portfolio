@@ -7,7 +7,7 @@ const CustomButton = ({ text, icon, submitfunction }) => {
   return (
     <Button
       className="site_btn"
-      onClick={submitfunction}
+      onClick={(e) => submitfunction(e)}
       endIcon={
         icon ? (
           <div className="icon_container">

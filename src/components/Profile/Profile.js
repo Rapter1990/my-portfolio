@@ -7,8 +7,16 @@ import CustomTimeline from 'components/CustomTimeline/CustomTimeline';
 import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
 import CustomeTimelineItem from 'components/CustomTimeline/CustomeTimelineItem';
 import CustomButton from 'components/CustomButton/CustomButton';
+import resume from '../../document/sng_resume_eng.pdf';
 
 const Profile = () => {
+
+  const handleOpen = (e) => {
+    e.preventDefault();
+    window.open(resume);
+  }
+
+
   return (
     <div className="profile container_shadow">
       <div className="profile_name">
@@ -37,7 +45,7 @@ const Profile = () => {
       </div>
 
       <div className="button_container">
-        <CustomButton text={"Download CV"} icon={<GetAppIcon />} />
+        <CustomButton text={"Download CV"} icon={<GetAppIcon />} submitfunction={handleOpen} />
       </div>
     </div>
   )

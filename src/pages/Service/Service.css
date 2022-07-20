@@ -6,6 +6,7 @@
 }
 
 .service .service_title {
+    color: white !important;
     font-size: 16px !important;
     font-weight: 500 !important;
     line-height: 35px !important;
@@ -13,7 +14,7 @@
 }
 
 .service .service_description {
-    color: #989898 !important;
+    color: white !important;
     border-color: var(--main-color) !important;
     margin-right: 5px !important;
     text-align: center;
