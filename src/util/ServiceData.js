@@ -11,48 +11,48 @@ var ServiceData = {
     services: [
         {
           title: "Service 1",
-          description: "Projects with Java and Python",
+          description: " Service 1 Information",
           icon: <WebOutlined />,
         },
         {
           title: "Service 2",
           description:
-            "We will make you a brand that is catchy and leaves a trace.",
+            "Service 2 Information",
           icon: <AssignmentOutlined />,
         },
         {
           title: "Service 3",
-          description: "I have been working on web design for 10 years.",
+          description: "Service 3 Information",
           icon: <DataObjectOutlinedIcon />,
         },
         {
           title: "Service 4",
-          description: "I have been working on web design for 10 years.",
+          description: "Service 4 Information",
           icon: <CloudDownloadOutlinedIcon />,
         },
         {
           title: "Service 5",
-          description: "I have been working on web design for 10 years.",
+          description: "Service 5 Information",
           icon: <StorageOutlinedIcon />,
         },
         {
           title: "Service 6",
-          description: "I have been working on web design for 10 years.",
+          description: "Service 6 Information",
           icon: <ContentPasteIcon />,
         },
         {
           title: "Service 7",
-          description: "I have been working on web design for 10 years.",
+          description: "Service 7 Information",
           icon: <CloudDownloadOutlinedIcon />,
         },
         {
           title: "Service 8",
-          description: "I have been working on web design for 10 years.",
+          description: "Service 8 Information",
           icon: <StorageOutlinedIcon />,
         },
         {
           title: "Service 9",
-          description: "I have been working on web design for 10 years.",
+          description: "Service 9 Information",
           icon: <ContentPasteIcon />,
         }
     ]

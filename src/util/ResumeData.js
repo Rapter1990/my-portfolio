@@ -34,7 +34,7 @@ var ResumeData = {
     
     education: [
         {
-          title: "Abc University of Los Angeles",
+          title: "Education 3",
           description:
             "Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.",
           date: "2004 - 2009",
@@ -46,7 +46,7 @@ var ResumeData = {
           date: "2003 - 2004",
         },
         {
-          title: "Education 3",
+          title: "Education 1",
           description:
             "Excited him now natural saw passage offices you minuter. At by asked being court hopes. Farther so friends am to detract.",
           date: "2000 - 2003",
